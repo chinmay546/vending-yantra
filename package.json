@@ -1,0 +1,24 @@
+{
+  "name": "vending-yantra",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmay546/vending-yantra.git"
+  },
+  "author": "\"vending-yantra\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmay546/vending-yantra/issues"
+  },
+  "homepage": "https://github.com/chinmay546/vending-yantra#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "dependencies": {}
+}
