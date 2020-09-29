@@ -17,9 +17,9 @@
     "url": "https://github.com/chinmay546/vending-yantra/issues"
   },
   "homepage": "https://github.com/chinmay546/vending-yantra#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
-  },
-  "dependencies": {}
+  }
 }
