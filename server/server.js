@@ -14,8 +14,11 @@ io.on("connection", (socket) => {
   console.log("New user connected");
   socket.on("OnOff", (message) => {
     console.log(message);
-    io.emit("rspmsg", message);
+    socket.emit("rspmsg", message);
   });
+  socket.on('loginVerify', (Credential) => {
+    console.log(Credential.email, Credential.pass);
+  })
 });
 server.listen(port, () => {
   console.log(`Server is up on port ${port}`);
